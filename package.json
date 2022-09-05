@@ -26,6 +26,12 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "typescript": "3.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
